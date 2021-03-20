@@ -1,0 +1,529 @@
+* {
+  font-family: 'Rubik', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+.resturant-menu {
+  max-width: 768px;
+  margin: 0 auto;
+  min-height: 100vh;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.row {
+  margin: 0px  !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+.banner-left {
+  width: 50%;
+  overflow: hidden;
+}
+
+.banner-left img {
+  -webkit-transition: 1s ease all;
+  transition: 1s ease all;
+}
+
+.banner-left img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.banner-right {
+  display: -ms-grid;
+  display: grid;
+  width: 50%;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-gap: 5px;
+  margin-left: 5px;
+}
+
+.banner-right .banner-right-img-sec {
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-right .banner-right-img-sec img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 1s ease all;
+  transition: 1s ease all;
+}
+
+.banner-right .banner-right-img-sec img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.banner-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.resturant-container {
+  padding: 15px;
+}
+
+.resturant-name {
+  line-height: 30px;
+  color: #1c1c1c;
+  margin: 0px;
+  font-weight: 500;
+  font-size: 28px;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+
+.resturant-title {
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  margin-bottom: 4px;
+}
+
+.resturant-address {
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  margin-bottom: 4px;
+}
+
+.resturant-time {
+  font-size: 15px;
+}
+
+.resturant-close {
+  color: #ed5a6b;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.resturant-order {
+  padding: 20px 0px;
+  border-top: 1px solid #e6e6e6;
+  margin-top: 20px;
+}
+
+.resturant-order-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.resturant-ordre-top-h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1c1c1c;
+}
+
+.order-search {
+  padding: 5px 20px;
+  min-width: 300px;
+  border-radius: 28px;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: #32325d1a 1px 2px 12px -2px, #00000033 0px 3px 7px -3px;
+          box-shadow: #32325d1a 1px 2px 12px -2px, #00000033 0px 3px 7px -3px;
+  height: 50px;
+}
+
+.resturant-order-imgSec {
+  max-width: 100px;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.resturant-order-imgSec img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+  -webkit-box-shadow: #6363631a 0px 2px 8px 0px;
+          box-shadow: #6363631a 0px 2px 8px 0px;
+}
+
+.resturant-order-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.resturant-order-detail {
+  margin-left: 15px;
+}
+
+.order-detail-heading {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding-right: 60px;
+}
+
+.order-menu-amount {
+  font-size: 14px;
+  font-weight: 500;
+  color: #828282;
+  margin-bottom: 5px;
+}
+
+.order-detail-txt {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.addOrderBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 24px;
+  width: 60px;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 4px;
+  border: 1px solid #1c1c1c;
+  color: #1c1c1c;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+}
+
+.addOrderBtn:hover {
+  color: #ed5a6b;
+  border: 1px solid #ed5a6b;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+}
+
+.resturant-order-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.resturant-order-item:last-child {
+  margin-bottom: 0px;
+}
+
+.resturant-order-item .order-img {
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+.resturant-order-item:hover .order-img {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+.resturant-order-right {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.resturant-order-counter {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid #1c1c1c;
+  color: #1c1c1c;
+  padding: 0px 2px;
+  display: none;
+}
+
+.resturant-order-counter.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.resturant-order-counter button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.resturant-order-counter .mdi {
+  font-size: 15px;
+}
+
+.resturant-order-counter .order-count-input {
+  width: 28px;
+  text-align: center;
+  border: none;
+  font-size: 15px;
+  outline: none;
+}
+
+.resturant-total-botto-sheet {
+  position: fixed;
+  bottom: -100vh;
+  width: 100%;
+  left: 0px;
+  -webkit-transition: bottom 0.5s ease;
+  transition: bottom 0.5s ease;
+  z-index: 1;
+}
+
+.resturant-total-botto-sheet.active {
+  bottom: 0px;
+  -webkit-transition: bottom 0.5s ease;
+  transition: bottom 0.5s ease;
+}
+
+.resturant-total-botto-sheet .resturant-total-inner {
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-shadow: #a6a6a61a 0px -3px 20px 0px;
+          box-shadow: #a6a6a61a 0px -3px 20px 0px;
+  background: #fff;
+  padding: 15px;
+}
+
+.viewOrderList {
+  background: none;
+  padding: 5px 20px;
+  font-size: 15px;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #1c1c1c;
+  border: 1px solid #e85a6a;
+  border-radius: 4px;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+}
+
+.viewOrderList:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  background: #e85a6a;
+}
+
+.resturant-total-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.resturant-total-detail {
+  margin-left: 11px;
+}
+
+.resturant-order-total-item {
+  font-size: 15px;
+  font-weight: 400;
+  color: #828282;
+  margin-bottom: 3px;
+}
+
+.resturant-order-amount-sec {
+  font-size: 15px;
+  color: #828282;
+  font-weight: 400;
+}
+
+.resturant-total-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.checkoutBtn {
+  border: none;
+  padding: 5px 20px;
+  border-radius: 4px;
+  background: #ed5a6b;
+  color: #ffffff;
+  font-size: 15px;
+  height: 32px;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+  border: 1px solid #fff;
+}
+
+.checkoutBtn:hover {
+  border: 1px solid #ed5a6b;
+  background: none;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+  color: #1c1c1c;
+}
+
+.resturant-total-right {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+
+.orderDetailSheetHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #a09f9f3b;
+  margin-bottom: 20px;
+}
+
+.orderDetailSheet {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  bottom: -100vh;
+  left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background: #00000047;
+  -webkit-transition: bottom 0.5s ease;
+  transition: bottom 0.5s ease;
+}
+
+.orderDetailSheet.active {
+  bottom: 0px;
+}
+
+.orderDetailSheetInner {
+  width: 100%;
+  padding: 20px;
+  background: #fff;
+  height: 300px;
+  max-width: 768px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.orderBottomCLose {
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 21px;
+}
+
+.orderDetailHeading {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.orderDetailImg {
+  max-width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 4px;
+}
+
+.orderDetailName {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.orderDetailPrice {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #9a9a9a;
+}
+
+.orderDetailListItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.orderDetailListItem:last-child {
+  margin-bottom: 0px;
+}
+
+.orderDetail {
+  margin-left: 20px;
+}
+
+.orderDetailBody {
+  height: 150px;
+  overflow: auto;
+}
+
+.orderDetailBody::-webkit-scrollbar {
+  width: 2px;
+}
+
+.orderDetailBody::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #0000007a;
+          box-shadow: inset 0 0 6px #0000007a;
+}
+
+.orderDetailBody::-webkit-scrollbar-thumb {
+  background-color: #656262;
+}
+/*# sourceMappingURL=style.css.map */
